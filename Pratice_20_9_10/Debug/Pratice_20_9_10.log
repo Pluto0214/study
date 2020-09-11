@@ -1,0 +1,31 @@
+﻿生成启动时间为 2020/9/10 21:26:34。
+     1>项目“D:\c语言\编程代码\Pratice_20_9_10\Pratice_20_9_10.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\c语言\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt game.c tese.c
+         tese.c
+     1>d:\c语言\编程代码\pratice_20_9_10\tese.c(4): error C2085: “menu”: 不在形参表中
+     1>d:\c语言\编程代码\pratice_20_9_10\tese.c(4): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>d:\c语言\编程代码\pratice_20_9_10\tese.c(24): warning C4013: “Setmine”未定义；假设外部返回 int
+     1>d:\c语言\编程代码\pratice_20_9_10\tese.c(36): warning C4013: “menu”未定义；假设外部返回 int
+         game.c
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(3): error C2082: 形参“InitBoard”的重定义
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(5): error C2082: 形参“DisplayBoard”的重定义
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(5): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(20): error C2065: “board”: 未声明的标识符
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(20): error C2109: 下标要求数组或指针类型
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(53): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(55): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(63): error C2065: “row”: 未声明的标识符
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(63): error C2065: “col”: 未声明的标识符
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(75): error C2065: “show”: 未声明的标识符
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(75): error C2109: 下标要求数组或指针类型
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(76): error C2065: “show”: 未声明的标识符
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(76): warning C4047: “函数”:“char (*)[11]”与“int”的间接级别不同
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(76): warning C4024: “DisplayBoard”: 形参和实参 1 的类型不同
+     1>d:\c语言\编程代码\pratice_20_9_10\game.c(45): fatal error C1075: 左侧的 大括号“{” 与文件结尾不匹配
+         正在生成代码...
+     1>已完成生成项目“D:\c语言\编程代码\Pratice_20_9_10\Pratice_20_9_10.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.16
