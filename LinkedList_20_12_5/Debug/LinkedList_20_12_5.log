@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/12/8 18:12:44。
+     1>项目“D:\c语言\编程代码\LinkedList_20_12_5\LinkedList_20_12_5.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\c语言\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt SList.c test.c
+         test.c
+     1>d:\c语言\编程代码\linkedlist_20_12_5\test.c(8): warning C4047: “函数”:“SL **”与“SL *”的间接级别不同
+     1>d:\c语言\编程代码\linkedlist_20_12_5\test.c(8): warning C4024: “SListPushBack”: 形参和实参 1 的类型不同
+         SList.c
+     1>d:\c语言\编程代码\linkedlist_20_12_5\slist.c(139): warning C4013: “assert”未定义；假设外部返回 int
+     1>d:\c语言\编程代码\linkedlist_20_12_5\slist.c(150): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+     1>d:\c语言\编程代码\linkedlist_20_12_5\slist.c(153): fatal error C1004: 发现意外的文件尾
+         正在生成代码...
+     1>已完成生成项目“D:\c语言\编程代码\LinkedList_20_12_5\LinkedList_20_12_5.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.49
