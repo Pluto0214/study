@@ -1,0 +1,20 @@
+﻿生成启动时间为 2021/5/24 13:04:58。
+     1>项目“D:\c语言\编程代码\BSTree_210524\BSTree_210524.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\c语言\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>d:\c语言\编程代码\bstree_210524\bstree.h(7): error C3646: “_key”: 未知重写说明符
+         d:\c语言\编程代码\bstree_210524\bstree.h(16): note: 参见对正在编译的类 模板 实例化“BSTreeNode<K>”的引用
+     1>d:\c语言\编程代码\bstree_210524\bstree.h(7): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\c语言\编程代码\bstree_210524\bstree.h(8): error C2065: “k”: 未声明的标识符
+     1>d:\c语言\编程代码\bstree_210524\bstree.h(8): error C2923: “BSTreeNode”: 对于参数“K”，“k”不是有效的 模板 类型变量
+     1>d:\c语言\编程代码\bstree_210524\bstree.h(9): error C2065: “k”: 未声明的标识符
+     1>d:\c语言\编程代码\bstree_210524\bstree.h(9): error C2923: “BSTreeNode”: 对于参数“K”，“k”不是有效的 模板 类型变量
+     1>d:\c语言\编程代码\bstree_210524\bstree.h(21): error C2065: “k”: 未声明的标识符
+         d:\c语言\编程代码\bstree_210524\bstree.h(108): note: 参见对正在编译的类 模板 实例化“BSTree<K>”的引用
+     1>d:\c语言\编程代码\bstree_210524\bstree.h(21): error C2923: “BSTreeNode”: 对于参数“K”，“k”不是有效的 模板 类型变量
+     1>已完成生成项目“D:\c语言\编程代码\BSTree_210524\BSTree_210524.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.32
